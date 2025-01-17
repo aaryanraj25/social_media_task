@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:social_media_task/data/models/question_model.dart';
 import 'package:social_media_task/presentation/controllers/question_controller.dart';
+import 'package:social_media_task/presentation/widgets/question_card.dart';
 
 class QuestionScreen extends GetView<QuestionController> {
   const QuestionScreen({Key? key}) : super(key: key);
@@ -24,7 +25,7 @@ class QuestionScreen extends GetView<QuestionController> {
             Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/sunset_background.jpg'),
+                  image: AssetImage('assets/sunset_background.png'),
                   fit: BoxFit.cover,
                 ),
               ),
